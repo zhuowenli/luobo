@@ -9,6 +9,9 @@
 ## 快速入门
 
 ```bash
+# 安装yarn，或者直接使用相对应的 `npm install`、`npm run dev` 等命令。
+npm i -g yarn
+
 # 安装依赖
 yarn
 
@@ -16,7 +19,7 @@ yarn
 yarn dev
 ```
 
-`yarn dev` 执行后，可以打开 [http://localhost:8080](http://localhost:8080) 预览页面。
+`yarn dev` 执行后，可以直接打开 [http://localhost:8080](http://localhost:8080) 预览页面。
 
 ## 编译命令
 
