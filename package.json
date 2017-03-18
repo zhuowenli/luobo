@@ -9,7 +9,8 @@
     "web": "cocos run -p web",
     "webpack": "rm -rf src && webpack --progress --colors --watch --config build/webpack.config.js",
     "server": "webpack-dev-server --output-public-path=/src --config build/webpack.config.js",
-    "dev": "npm run webpack & npm run server"
+    "dev": "npm run webpack & npm run server",
+    "build:web": "cocos compile -p web -m release"
   },
   "devDependencies": {
     "babel-core": "^6.24.0",
