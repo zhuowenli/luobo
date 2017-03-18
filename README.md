@@ -1,6 +1,6 @@
 # cocos2d-js-example
 
-完全基于es6开发，可在开发阶段实现自动编译代码，并且集成了热刷新功能。
+该项目完全基于es6开发，可在开发阶段实现自动编译代码，并且集成了热刷新功能。
 
 该仓库通过 [Cocos Console](https://github.com/cocos2d/cocos2d-console) 的 `cocos new [project] -l js` 创建，并且移除了 `frameworks` 。
 
@@ -23,4 +23,34 @@ yarn dev
 ```bash
 # 编译web版本
 yarn build:web
+```
+## 目录结构
+
+```
+.
+├── CMakeLists.txt
+├── LICENSE
+├── README.md
+├── index.html
+├── main.js                 # 游戏入口文件
+├── manifest.webapp
+├── package.json            # npm配置文件
+├── project.json
+└── yarn.lock
+├── build                   # 编译配置目录
+│   └── webpack.config.js
+├── frameworks              # 引擎目录
+├── publish                 # 平台包目录
+├── src                     # 编译后的项目代码
+│   ├── app.js
+│   └── app.js.map
+├── res                     # 资源目录
+│   ├── HelloWorld.png
+│   └── loading.js
+├── lib                     # 开发时的项目代码
+│   ├── app.js
+│   ├── models
+│   ├── resource.js
+│   └── views
+│       └── helloworld.js
 ```
