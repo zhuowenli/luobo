@@ -40,3 +40,5 @@ jspm_packages
 frameworks/
 src/
 publish/
+
+.DS_Store
