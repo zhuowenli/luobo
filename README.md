@@ -48,8 +48,6 @@ yarn build:web
 │   ├── app.js
 │   └── app.js.map
 ├── res                     # 资源目录
-│   ├── HelloWorld.png
-│   └── loading.js
 ├── lib                     # 开发时的项目代码
 │   ├── app.js
 │   ├── models
