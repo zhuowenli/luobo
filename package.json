@@ -10,7 +10,8 @@
     "webpack": "rm -rf src && webpack --progress --colors --watch --config build/webpack.config.js",
     "server": "webpack-dev-server --output-public-path=/src --config build/webpack.config.js",
     "dev": "npm run webpack & npm run server",
-    "build:web": "cocos compile -p web -m release"
+    "build:web": "cocos compile -p web -m release",
+    "gh-pages": "npm run build:web && node build/gh-pages.js"
   },
   "devDependencies": {
     "babel-core": "^6.24.0",
@@ -21,6 +22,7 @@
     "babel-preset-stage-1": "^6.22.0",
     "eslint": "^3.18.0",
     "eslint-config-airbnb": "^14.1.0",
+    "gh-pages": "^0.12.0",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.2"
   }
