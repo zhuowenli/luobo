@@ -166,10 +166,47 @@
                 <file name="cocos2d/parallax/CCParallaxNode.js"/>
                 <file name="cocos2d/parallax/CCParallaxNodeRenderCmd.js"/>
                 <file name="cocos2d/audio/CCAudio.js"/>
+                <file name="extensions/ccui/base-classes/CCProtectedNode.js"/>
+                <file name="extensions/ccui/base-classes/CCProtectedNodeCanvasRenderCmd.js"/>
+                <file name="extensions/ccui/base-classes/CCProtectedNodeWebGLRenderCmd.js"/>
+                <file name="extensions/ccui/system/CocosGUI.js"/>
+                <file name="extensions/ccui/base-classes/UIWidget.js"/>
+                <file name="extensions/ccui/base-classes/UIWidgetRenderCmd.js"/>
+                <file name="extensions/ccui/base-classes/UIScale9Sprite.js"/>
+                <file name="extensions/ccui/base-classes/UIScale9SpriteCanvasRenderCmd.js"/>
+                <file name="extensions/ccui/base-classes/UIScale9SpriteWebGLRenderCmd.js"/>
+                <file name="extensions/ccui/layouts/UILayout.js"/>
+                <file name="extensions/ccui/layouts/UILayoutCanvasRenderCmd.js"/>
+                <file name="extensions/ccui/layouts/UILayoutWebGLRenderCmd.js"/>
+                <file name="extensions/ccui/layouts/UILayoutParameter.js"/>
+                <file name="extensions/ccui/layouts/UILayoutManager.js"/>
+                <file name="extensions/ccui/layouts/UIHBox.js"/>
+                <file name="extensions/ccui/layouts/UIRelativeBox.js"/>
+                <file name="extensions/ccui/layouts/UIVBox.js"/>
+                <file name="extensions/ccui/system/UIHelper.js"/>
+                <file name="extensions/ccui/uiwidgets/UIButton.js"/>
+                <file name="extensions/ccui/uiwidgets/UICheckBox.js"/>
+                <file name="extensions/ccui/uiwidgets/UIImageView.js"/>
+                <file name="extensions/ccui/uiwidgets/UILoadingBar.js"/>
+                <file name="extensions/ccui/uiwidgets/UISlider.js"/>
+                <file name="extensions/ccui/uiwidgets/UIText.js"/>
+                <file name="extensions/ccui/uiwidgets/UITextAtlas.js"/>
+                <file name="extensions/ccui/uiwidgets/UITextBMFont.js"/>
+                <file name="extensions/ccui/uiwidgets/UITextField.js"/>
+                <file name="extensions/ccui/uiwidgets/UIVideoPlayer.js"/>
+                <file name="extensions/ccui/uiwidgets/UIRichText.js"/>
+                <file name="extensions/ccui/uiwidgets/UIWebView.js"/>
+                <file name="extensions/ccui/uiwidgets/scroll-widget/UIScrollViewBar.js"/>
+                <file name="extensions/ccui/uiwidgets/scroll-widget/UIScrollView.js"/>
+                <file name="extensions/ccui/uiwidgets/scroll-widget/UIListView.js"/>
+                <file name="extensions/ccui/uiwidgets/scroll-widget/UIPageView.js"/>
+                <file name="extensions/ccui/uiwidgets/scroll-widget/UIPageViewIndicator.js"/>
+                <file name="extensions/ccui/uiwidgets/scroll-widget/UIScrollViewCanvasRenderCmd.js"/>
+                <file name="extensions/ccui/uiwidgets/scroll-widget/UIScrollViewWebGLRenderCmd.js"/>
 
             </sources>
             <sources dir="${basedir}">
-                <file name="src/app.js"/>
+                <file name="dist/app.js"/>
                 <file name="main.js"/>
 
             </sources>
