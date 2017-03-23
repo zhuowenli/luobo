@@ -206,7 +206,7 @@
 
             </sources>
             <sources dir="${basedir}">
-                <file name="dist/app.js"/>
+                <file name="src/app.js"/>
                 <file name="main.js"/>
 
             </sources>
