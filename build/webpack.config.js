@@ -10,9 +10,9 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-    entry: path.resolve(__dirname, '../lib/app.js'),
+    entry: path.resolve(__dirname, '../src/app.js'),
     output: {
-        path: path.resolve(__dirname, '../src'),
+        path: path.resolve(__dirname, '../dist'),
         filename: 'app.js',
     },
     devtool: '#source-map',
@@ -24,8 +24,8 @@ module.exports = {
                 loader: 'babel-loader',
                 options: {
                     presets: ['es2015', 'stage-1'],
-                    plugins: ['transform-runtime']
-                }
+                    plugins: ['transform-runtime'],
+                },
             },
         ],
     },
