@@ -9,6 +9,6 @@
     "engineDir":"frameworks/cocos2d-html5",
     "modules" : ["cocos2d", "ccui"],
     "jsList" : [
-        "dist/app.js"
+        "src/app.js"
     ]
 }

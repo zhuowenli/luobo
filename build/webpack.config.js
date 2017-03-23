@@ -10,9 +10,9 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-    entry: path.resolve(__dirname, '../src/app.js'),
+    entry: path.resolve(__dirname, '../lib/app.js'),
     output: {
-        path: path.resolve(__dirname, '../dist'),
+        path: path.resolve(__dirname, '../src'),
         filename: 'app.js',
     },
     devtool: '#source-map',

@@ -38,7 +38,7 @@ jspm_packages
 
 # cocos2d-js
 frameworks/
-dist/
+src/
 publish/
 
 .DS_Store

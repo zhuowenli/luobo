@@ -7,8 +7,8 @@
   "license": "MIT",
   "scripts": {
     "web": "cocos run -p web",
-    "webpack": "rm -rf dist && webpack --progress --colors --watch --config build/webpack.config.js",
-    "server": "webpack-dev-server --output-public-path=/dist --config build/webpack.config.js",
+    "webpack": "rm -rf src && webpack --progress --colors --watch --config build/webpack.config.js",
+    "server": "webpack-dev-server --output-public-path=/src --config build/webpack.config.js",
     "dev": "npm run webpack & npm run server",
     "build:web": "cocos compile -p web -m release",
     "gh-pages": "npm run build:web && node build/gh-pages.js"
