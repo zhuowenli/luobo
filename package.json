@@ -1,8 +1,8 @@
 {
-  "name": "demo",
+  "name": "luobo",
   "version": "1.0.0",
   "main": "main.js",
-  "repository": "git@github.com:zhuowenli/cocos2d-js-example.git",
+  "repository": "git@github.com:zhuowenli/luobo.git",
   "author": "卓文理 <531840344@qq.com>",
   "license": "MIT",
   "scripts": {
